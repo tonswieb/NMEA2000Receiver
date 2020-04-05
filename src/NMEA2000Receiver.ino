@@ -2,8 +2,8 @@
 //
 // The code has been tested with ESP32.
 
-#define ESP32_CAN_TX_PIN GPIO_NUM_12
-#define ESP32_CAN_RX_PIN GPIO_NUM_13
+#define ESP32_CAN_TX_PIN GPIO_NUM_2
+#define ESP32_CAN_RX_PIN GPIO_NUM_15
 #include <NMEA2000_CAN.h>
 
 // Set the information for other bus devices, which messages we support
